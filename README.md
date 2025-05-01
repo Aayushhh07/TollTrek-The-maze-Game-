@@ -1,37 +1,26 @@
-# 🚗 TollTrek Maze v4 – Intelligent Toll Pathfinding Game
+# TollTrek Maze Game 🚗💨
 
-TollTrek is a progressive, graph-based Python game where players control a car navigating through a toll-heavy road network. The game features a dynamic road network with travel costs, blocked roads, and adaptive levels that become more complex with each win.
+![Game Screenshot](screenshot.png)
 
----
+A strategic maze navigation game where you must reach the destination while paying tolls along the way. Plan your route carefully to minimize costs!
 
-## 🎯 Features
+## Features ✨
+- **Guaranteed solvable mazes** with at least 2 mandatory toll crossings
+- **Smart hint system** that suggests optimal paths after 2-3 games
+- **Dynamic weather system** affecting toll prices (☀️🌧️🌫️❄️)
+- **5 progressive levels** with increasing difficulty
+- **Visual path tracking** and cost calculation
+- **Keyboard controls** (arrow keys) and hint hotkey (H)
 
-- ✅ Organic graph layout (non-grid)
-- ✅ Dynamic road creation with random toll costs
-- ✅ Road costs displayed on screen
-- ✅ Blocked roads to increase challenge
-- ✅ Car avatar animation between nodes
-- ✅ Progressive levels (more nodes each round)
-- ✅ Visual UI and interactive gameplay
+## How to Play 🎮
+1. Navigate from start (top-left) to destination (bottom-right)
+2. Avoid walls (🧱) - they're impassable
+3. Pay tolls (🏰/💰/🏦) when you cross them
+4. Reach the 🏁 with enough money to win!
+5. Press H for hints after playing 2-3 games
 
----
-
-## 📦 Requirements
-
-Install the required libraries using:
-
+## Installation 💻
 ```bash
-pip install pillow
-
-
-▶️ How to Run
-Clone the repo or download the files.
-
-Ensure car.png and road_bg.png are in the same folder.
-
-Run the game with:
-python tolltrek_maze.py
-
-A game window will open. Click the buttons to navigate.
-
-Reach the destination node to complete the level and advance!
+git clone https://github.com/your-username/TollTrek-Maze.git
+cd TollTrek-Maze
+python TollTrek_v5.py
