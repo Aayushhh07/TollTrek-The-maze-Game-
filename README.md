@@ -1,6 +1,5 @@
 # TollTrek Maze Game 🚗💨
 
-![Game Screenshot](Screenshot 2025-05-02 004644.png)
 
 A strategic maze navigation game where you must reach the destination while paying tolls along the way. Plan your route carefully to minimize costs!
 
